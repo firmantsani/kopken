@@ -1,0 +1,17 @@
+{
+  "name": "kopken",
+  "version": "1.0.0",
+  "main": "kopken.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "fs": "^0.0.1-security",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
