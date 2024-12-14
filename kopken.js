@@ -49,7 +49,7 @@ async function sendWhatsAppMessage(sock) {
 
         await sock.sendMessage(number, { text: message });
         console.log('Pesan terkirim dengan referenceid:', referenceid);
-
+        console.log("Join diskusi channel https://t.me/Si_New_Bie\n\n");
         await new Promise(resolve => setTimeout(resolve, 10000));
     }
 }
